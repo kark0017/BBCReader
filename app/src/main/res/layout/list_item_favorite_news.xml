@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/favoriteTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:layoutDirection="locale"
+        android:text="News Title" />
+
+    <!-- Description TextView -->
+    <TextView
+        android:id="@+id/favoriteDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:layoutDirection="locale"
+        android:text="News Description" />
+
+    <!-- Add more views as needed for additional information -->
+</LinearLayout>
